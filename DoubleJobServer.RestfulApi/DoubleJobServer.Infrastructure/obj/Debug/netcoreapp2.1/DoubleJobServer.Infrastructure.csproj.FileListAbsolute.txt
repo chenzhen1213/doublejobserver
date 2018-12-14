@@ -1,0 +1,12 @@
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\bin\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.deps.json
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\bin\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.dll
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\bin\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.pdb
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.csprojAssemblyReference.cache
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.csproj.CoreCompileInputs.cache
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.AssemblyInfoInputs.cache
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.AssemblyInfo.cs
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.dll
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.pdb
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\bin\Debug\netcoreapp2.1\DoubleJobServer.Core.dll
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\bin\Debug\netcoreapp2.1\DoubleJobServer.Core.pdb
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\obj\Debug\netcoreapp2.1\DoubleJobServer.Infrastructure.csproj.CopyComplete

@@ -1,0 +1,378 @@
+2018-12-10 16:35:50.572 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 16:35:50.853 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-10 16:35:50.963 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-10 17:09:01.506 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:09:01.884 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-10 17:09:02.786 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-10 17:09:39.047 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1?includeCities=true  
+2018-12-10 17:09:39.517 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:09:39.767 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-10 17:09:39.776 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:09:39.841 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.JsonResult in 67.143ms.
+2018-12-10 17:09:39.848 +08:00 [INF] Executing JsonResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CountryResource'.
+2018-12-10 17:09:39.977 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 456.74370000000005ms
+2018-12-10 17:09:39.983 +08:00 [INF] Request finished in 935.9643ms 200 application/json; charset=utf-8
+2018-12-10 17:10:05.685 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 665
+2018-12-10 17:10:05.698 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:10:05.850 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:10:05.853 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 1.8193000000000001ms.
+2018-12-10 17:10:05.858 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:10:05.864 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 165.2054ms
+2018-12-10 17:10:05.867 +08:00 [INF] Request finished in 181.6262ms 422 application/json; charset=utf-8
+2018-12-10 17:10:32.037 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1?includeCities=true  
+2018-12-10 17:10:32.038 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:10:32.052 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-10 17:10:32.054 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:10:32.059 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.5539000000000005ms.
+2018-12-10 17:10:32.061 +08:00 [INF] Executing JsonResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CountryResource'.
+2018-12-10 17:10:32.062 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 23.173000000000002ms
+2018-12-10 17:10:32.063 +08:00 [INF] Request finished in 26.1083ms 200 application/json; charset=utf-8
+2018-12-10 17:12:19.030 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 244
+2018-12-10 17:12:19.030 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:12:19.075 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:12:19.078 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 0.0463ms.
+2018-12-10 17:12:19.079 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:12:19.080 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 48.5979ms
+2018-12-10 17:12:19.080 +08:00 [INF] Request finished in 50.8191ms 422 application/json; charset=utf-8
+2018-12-10 17:12:24.650 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 244
+2018-12-10 17:12:24.652 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:12:24.677 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:12:24.682 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 0.0441ms.
+2018-12-10 17:12:24.684 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:12:24.684 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 30.7637ms
+2018-12-10 17:12:24.686 +08:00 [INF] Request finished in 35.8089ms 422 application/json; charset=utf-8
+2018-12-10 17:12:41.090 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 244
+2018-12-10 17:12:41.096 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:12:41.122 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:12:41.123 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 0.0233ms.
+2018-12-10 17:12:41.125 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:12:41.127 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 22.2679ms
+2018-12-10 17:12:41.128 +08:00 [INF] Request finished in 38.9494ms 422 application/json; charset=utf-8
+2018-12-10 17:15:28.316 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 244
+2018-12-10 17:15:28.317 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:15:28.330 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:15:28.332 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 0.0204ms.
+2018-12-10 17:15:28.332 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:15:28.333 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 15.780000000000001ms
+2018-12-10 17:15:28.334 +08:00 [INF] Request finished in 18.0209ms 422 application/json; charset=utf-8
+2018-12-10 17:15:30.824 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 244
+2018-12-10 17:15:30.826 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:15:30.842 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:15:30.843 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 0.02ms.
+2018-12-10 17:15:30.844 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:15:30.845 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 16.6527ms
+2018-12-10 17:15:30.846 +08:00 [INF] Request finished in 22.2701ms 422 application/json; charset=utf-8
+2018-12-10 17:16:00.273 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1/cities/1 application/json 244
+2018-12-10 17:16:00.291 +08:00 [INF] Route matched with {action = "UpdateCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:16:00.303 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1","DoubleJobServer.Infrastructure.Resources.CityUpdateResource"]) - Validation state: "Invalid"
+2018-12-10 17:17:28.489 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.UnprocessableEntityObjectResult in 88176.7936ms.
+2018-12-10 17:17:28.506 +08:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.SerializableError'.
+2018-12-10 17:17:28.507 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.UpdateCityForCountry (DoubleJobServer.RestfulApi) in 88215.6584ms
+2018-12-10 17:17:28.516 +08:00 [INF] Request finished in 88242.9629ms 422 application/json; charset=utf-8
+2018-12-10 17:17:38.095 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1 application/json 244
+2018-12-10 17:17:38.098 +08:00 [INF] Route matched with {action = "UpdateCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:17:38.139 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) with arguments (["1","DoubleJobServer.Infrastructure.Resources.CountryUpdateResource"]) - Validation state: "Valid"
+2018-12-10 17:17:41.975 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:18:24.389 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) in 46289.9133ms
+2018-12-10 17:18:24.503 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+CityResource -> City (Destination member list)
+DoubleJobServer.Infrastructure.Resources.CityResource -> DoubleJobServer.Core.DomainModels.City (Destination member list)
+
+Unmapped properties:
+Description
+Country
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps) in C:\projects\automapper\src\AutoMapper\ConfigurationValidator.cs:line 48
+   at lambda_method(Closure , CityResource , City , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 271
+   at DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry(Int32 id, CountryUpdateResource countryUpdate) in D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.RestfulApi\Controllers\CountryController.cs:line 162
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 17:18:25.009 +08:00 [INF] Request finished in 46914.1121ms 500 text/html; charset=utf-8
+2018-12-10 17:18:30.409 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1 application/json 244
+2018-12-10 17:18:30.410 +08:00 [INF] Route matched with {action = "UpdateCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:18:30.425 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) with arguments (["1","DoubleJobServer.Infrastructure.Resources.CountryUpdateResource"]) - Validation state: "Valid"
+2018-12-10 17:18:32.256 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:18:32.465 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) in 2053.3179ms
+2018-12-10 17:18:32.507 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+CityResource -> City (Destination member list)
+DoubleJobServer.Infrastructure.Resources.CityResource -> DoubleJobServer.Core.DomainModels.City (Destination member list)
+
+Unmapped properties:
+Description
+Country
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps) in C:\projects\automapper\src\AutoMapper\ConfigurationValidator.cs:line 48
+   at lambda_method(Closure , CityResource , City , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 271
+   at DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry(Int32 id, CountryUpdateResource countryUpdate) in D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.RestfulApi\Controllers\CountryController.cs:line 162
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 17:18:32.559 +08:00 [INF] Request finished in 2150.5623ms 500 text/html; charset=utf-8
+2018-12-10 17:18:53.639 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1 application/json 244
+2018-12-10 17:18:53.640 +08:00 [INF] Route matched with {action = "UpdateCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:18:53.655 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) with arguments (["1","DoubleJobServer.Infrastructure.Resources.CountryUpdateResource"]) - Validation state: "Valid"
+2018-12-10 17:18:53.657 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:18:53.884 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) in 242.5464ms
+2018-12-10 17:18:53.938 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+CityResource -> City (Destination member list)
+DoubleJobServer.Infrastructure.Resources.CityResource -> DoubleJobServer.Core.DomainModels.City (Destination member list)
+
+Unmapped properties:
+Description
+Country
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps) in C:\projects\automapper\src\AutoMapper\ConfigurationValidator.cs:line 48
+   at lambda_method(Closure , CityResource , City , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 271
+   at DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry(Int32 id, CountryUpdateResource countryUpdate) in D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.RestfulApi\Controllers\CountryController.cs:line 162
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 17:18:53.999 +08:00 [INF] Request finished in 359.2841ms 500 text/html; charset=utf-8
+2018-12-10 17:19:02.216 +08:00 [INF] Request starting HTTP/1.1 PUT http://localhost:5000/api/countries/1 application/json 244
+2018-12-10 17:19:02.218 +08:00 [INF] Route matched with {action = "UpdateCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:19:02.233 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) with arguments (["1","DoubleJobServer.Infrastructure.Resources.CountryUpdateResource"]) - Validation state: "Valid"
+2018-12-10 17:19:02.235 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:19:02.449 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry (DoubleJobServer.RestfulApi) in 229.0036ms
+2018-12-10 17:19:02.486 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperConfigurationException: 
+Unmapped members were found. Review the types and members below.
+Add a custom mapping expression, ignore, add a custom resolver, or modify the source/destination type
+For no matching constructor, add a no-arg ctor, add optional arguments, or map all of the constructor parameters
+================================================================================================
+AutoMapper created this type map for you, but your types cannot be mapped using the current configuration.
+CityResource -> City (Destination member list)
+DoubleJobServer.Infrastructure.Resources.CityResource -> DoubleJobServer.Core.DomainModels.City (Destination member list)
+
+Unmapped properties:
+Description
+Country
+
+   at AutoMapper.ConfigurationValidator.AssertConfigurationIsValid(IEnumerable`1 typeMaps) in C:\projects\automapper\src\AutoMapper\ConfigurationValidator.cs:line 48
+   at lambda_method(Closure , CityResource , City , ResolutionContext )
+   at AutoMapper.Mapper.AutoMapper.IMapper.Map[TSource,TDestination](TSource source, TDestination destination) in C:\projects\automapper\src\AutoMapper\Mapper.cs:line 271
+   at DoubleJobServer.RestfulApi.Controllers.CountryController.UpdateCountry(Int32 id, CountryUpdateResource countryUpdate) in D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.RestfulApi\Controllers\CountryController.cs:line 162
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 17:19:02.565 +08:00 [INF] Request finished in 348.3413ms 500 text/html; charset=utf-8
+2018-12-10 17:19:14.619 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1?includeCities=true  
+2018-12-10 17:19:14.620 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:19:14.637 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-10 17:19:14.639 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:19:14.641 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.JsonResult in 2.0943ms.
+2018-12-10 17:19:14.642 +08:00 [INF] Executing JsonResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CountryResource'.
+2018-12-10 17:19:14.642 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 19.0956ms
+2018-12-10 17:19:14.658 +08:00 [INF] Request finished in 39.161ms 200 application/json; charset=utf-8
+2018-12-10 17:19:16.979 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1?includeCities=true  
+2018-12-10 17:19:16.988 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-10 17:19:17.004 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-10 17:19:17.006 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 17:19:17.008 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.JsonResult in 1.7792000000000001ms.
+2018-12-10 17:19:17.009 +08:00 [INF] Executing JsonResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CountryResource'.
+2018-12-10 17:19:17.009 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 20.3691ms
+2018-12-10 17:19:17.012 +08:00 [INF] Request finished in 33.8167ms 200 application/json; charset=utf-8
+2018-12-10 18:03:05.099 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 18:03:05.303 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-10 18:03:05.405 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-10 18:03:47.783 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1？pageIndex=0&pageSize=3  
+2018-12-10 18:03:47.919 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-10 18:03:48.304 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["0"]) - Validation state: "Invalid"
+2018-12-10 18:03:48.314 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 18:03:48.354 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 42.3507ms.
+2018-12-10 18:03:48.359 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-10 18:03:48.362 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 439.83680000000004ms
+2018-12-10 18:03:48.368 +08:00 [INF] Request finished in 585.7813ms 404 text/plain
+2018-12-10 18:04:21.856 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1？pageIndex=0&pageSize=3  
+2018-12-10 18:04:21.858 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-10 18:04:21.938 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["0"]) - Validation state: "Invalid"
+2018-12-10 18:04:21.939 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 18:04:21.943 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 3.7532ms.
+2018-12-10 18:04:21.944 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-10 18:04:21.945 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 86.464ms
+2018-12-10 18:04:21.946 +08:00 [INF] Request finished in 90.5443ms 404 text/plain
+2018-12-10 18:04:39.203 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries？pageIndex=0&pageSize=3  
+2018-12-10 18:04:39.204 +08:00 [INF] Request finished in 0.7793ms 404 text/plain
+2018-12-10 18:04:58.690 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries？pageIndex=0&pageSize=3  
+2018-12-10 18:04:58.690 +08:00 [INF] Request finished in 0.7344ms 404 text/plain
+2018-12-10 18:04:59.940 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries？pageIndex=0&pageSize=3  
+2018-12-10 18:04:59.941 +08:00 [INF] Request finished in 0.8241ms 404 text/plain
+2018-12-10 18:05:00.645 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries？pageIndex=0&pageSize=3  
+2018-12-10 18:05:00.645 +08:00 [INF] Request finished in 0.8412ms 404 text/plain
+2018-12-10 18:05:01.215 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries？pageIndex=0&pageSize=3  
+2018-12-10 18:05:01.217 +08:00 [INF] Request finished in 1.8977ms 404 text/plain
+2018-12-10 18:05:07.983 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries？pageIndex=0&pageSize=3  
+2018-12-10 18:05:07.985 +08:00 [INF] Request finished in 1.5571ms 404 text/plain
+2018-12-10 18:05:32.550 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:05:32.558 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:05:32.653 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:05:32.826 +08:00 [INF] Request finished in 276.2709ms 500 text/html; charset=utf-8
+2018-12-10 18:05:39.243 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:05:39.244 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:05:39.328 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:05:39.332 +08:00 [INF] Request finished in 89.8729ms 500 text/html; charset=utf-8
+2018-12-10 18:05:41.142 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:05:41.142 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:05:41.219 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:05:41.224 +08:00 [INF] Request finished in 82.5233ms 500 text/html; charset=utf-8
+2018-12-10 18:05:41.796 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:05:41.797 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:05:41.875 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:05:41.879 +08:00 [INF] Request finished in 83.159ms 500 text/html; charset=utf-8
+2018-12-10 18:05:42.514 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:05:42.515 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:05:42.595 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:05:42.599 +08:00 [INF] Request finished in 85.0888ms 500 text/html; charset=utf-8
+2018-12-10 18:05:43.108 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:05:43.109 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:05:43.190 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:05:43.195 +08:00 [INF] Request finished in 86.6347ms 500 text/html; charset=utf-8
+2018-12-10 18:06:26.072 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-10 18:06:26.256 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-10 18:06:26.375 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-10 18:06:48.537 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-10 18:06:48.662 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-10 18:06:48.813 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-10 18:06:48.908 +08:00 [INF] Request finished in 371.9021ms 500 text/html; charset=utf-8

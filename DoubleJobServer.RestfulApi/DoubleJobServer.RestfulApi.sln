@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleJobServer.RestfulApi", "DoubleJobServer.RestfulApi\DoubleJobServer.RestfulApi.csproj", "{804D0F74-67D3-4CDE-89A4-967377618AA6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11064637-4E08-4691-BB85-83B1EFBB139F} = {11064637-4E08-4691-BB85-83B1EFBB139F}
+		{8ECB1AF9-E3E3-4254-AE32-403240D26BD6} = {8ECB1AF9-E3E3-4254-AE32-403240D26BD6}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleJobServer.Core", "DoubleJobServer.Core\DoubleJobServer.Core.csproj", "{11064637-4E08-4691-BB85-83B1EFBB139F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoubleJobServer.Infrastructure", "DoubleJobServer.Infrastructure\DoubleJobServer.Infrastructure.csproj", "{8ECB1AF9-E3E3-4254-AE32-403240D26BD6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{11064637-4E08-4691-BB85-83B1EFBB139F} = {11064637-4E08-4691-BB85-83B1EFBB139F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{804D0F74-67D3-4CDE-89A4-967377618AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{804D0F74-67D3-4CDE-89A4-967377618AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{804D0F74-67D3-4CDE-89A4-967377618AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{804D0F74-67D3-4CDE-89A4-967377618AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11064637-4E08-4691-BB85-83B1EFBB139F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11064637-4E08-4691-BB85-83B1EFBB139F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11064637-4E08-4691-BB85-83B1EFBB139F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11064637-4E08-4691-BB85-83B1EFBB139F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECB1AF9-E3E3-4254-AE32-403240D26BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECB1AF9-E3E3-4254-AE32-403240D26BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECB1AF9-E3E3-4254-AE32-403240D26BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECB1AF9-E3E3-4254-AE32-403240D26BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C72C2A8E-5EFB-410C-94D1-D1D34B583EAB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,478 @@
+2018-12-14 10:01:06.026 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 10:01:06.239 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-14 10:01:06.437 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-14 10:04:58.960 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:05:01.127 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:05:01.256 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:05:01.430 +08:00 [INF] Request finished in 2470.3058ms 500 text/html; charset=utf-8
+2018-12-14 10:05:24.830 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:05:24.842 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:05:24.950 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:05:24.955 +08:00 [INF] Request finished in 125.0974ms 500 text/html; charset=utf-8
+2018-12-14 10:06:06.376 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:06:06.377 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:06:06.461 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:06:06.467 +08:00 [INF] Request finished in 90.5688ms 500 text/html; charset=utf-8
+2018-12-14 10:07:20.526 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:09:00.818 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:09:00.915 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:09:00.918 +08:00 [INF] Request finished in 100392.8721ms 500 text/html; charset=utf-8
+2018-12-14 10:09:17.698 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 10:09:17.905 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-14 10:09:18.012 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-14 10:09:22.798 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:09:22.905 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:09:23.060 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:09:23.164 +08:00 [INF] Request finished in 366.197ms 500 text/html; charset=utf-8
+2018-12-14 10:09:48.085 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:09:48.093 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:09:48.178 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:09:48.186 +08:00 [INF] Request finished in 101.2052ms 500 text/html; charset=utf-8
+2018-12-14 10:16:47.502 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:16:47.504 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:16:47.576 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:16:47.590 +08:00 [INF] Request finished in 88.4169ms 500 text/html; charset=utf-8
+2018-12-14 10:18:44.399 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 10:18:44.580 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-14 10:18:44.691 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-14 10:19:12.610 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:19:12.718 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:19:12.870 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:19:12.995 +08:00 [INF] Request finished in 385.3675ms 500 text/html; charset=utf-8
+2018-12-14 10:19:31.005 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=1  
+2018-12-14 10:19:31.028 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:19:31.114 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:19:31.121 +08:00 [INF] Request finished in 116.0138ms 500 text/html; charset=utf-8
+2018-12-14 10:19:33.943 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:19:33.945 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:19:34.032 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:19:34.038 +08:00 [INF] Request finished in 95.0787ms 500 text/html; charset=utf-8
+2018-12-14 10:19:39.004 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=1&pageSize=3  
+2018-12-14 10:19:39.005 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:19:39.090 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:19:39.095 +08:00 [INF] Request finished in 91.5013ms 500 text/html; charset=utf-8
+2018-12-14 10:19:41.405 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:19:41.407 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:19:41.492 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:19:41.501 +08:00 [INF] Request finished in 95.8609ms 500 text/html; charset=utf-8
+2018-12-14 10:19:53.317 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:19:53.318 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:19:53.411 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:19:53.418 +08:00 [INF] Request finished in 100.4715ms 500 text/html; charset=utf-8
+2018-12-14 10:20:42.699 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 10:20:42.701 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 10:20:42.793 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 10:20:42.800 +08:00 [INF] Request finished in 100.5714ms 500 text/html; charset=utf-8
+2018-12-14 11:05:50.625 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:05:50.818 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-14 11:05:51.021 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-14 11:05:54.331 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 11:05:54.740 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 11:05:54.874 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:05:55.050 +08:00 [INF] Request finished in 719.9205ms 500 text/html; charset=utf-8
+2018-12-14 11:06:20.209 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageindex=0&pagesize=3  
+2018-12-14 11:06:20.225 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 11:06:20.310 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:06:20.316 +08:00 [INF] Request finished in 106.8073ms 500 text/html; charset=utf-8
+2018-12-14 11:06:28.742 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 11:06:28.743 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 11:06:28.841 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:06:28.848 +08:00 [INF] Request finished in 105.1907ms 500 text/html; charset=utf-8
+2018-12-14 11:06:57.041 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 11:06:57.045 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 11:06:57.139 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:06:57.144 +08:00 [INF] Request finished in 102.6208ms 500 text/html; charset=utf-8
+2018-12-14 11:11:20.636 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1?includeCities=true  
+2018-12-14 11:11:20.674 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:11:20.973 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-14 11:11:20.992 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:11:21.064 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.JsonResult in 82.418ms.
+2018-12-14 11:11:21.071 +08:00 [INF] Executing JsonResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CountryResource'.
+2018-12-14 11:11:21.214 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 532.3628ms
+2018-12-14 11:11:21.216 +08:00 [INF] Request finished in 579.9313ms 200 application/json; charset=utf-8
+2018-12-14 11:17:17.901 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 11:17:17.902 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 11:17:17.996 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:17:18.010 +08:00 [INF] Request finished in 108.709ms 500 text/html; charset=utf-8
+2018-12-14 11:19:03.073 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:19:03.270 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-14 11:19:03.372 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-14 11:19:08.190 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0&pageSize=3  
+2018-12-14 11:19:08.305 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountries (DoubleJobServer.RestfulApi)
+2018-12-14 11:19:08.443 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountries (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:19:08.545 +08:00 [INF] Request finished in 356.8304ms 500 text/html; charset=utf-8
+2018-12-14 11:21:04.490 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageIndex=0  
+2018-12-14 11:21:04.505 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountries (DoubleJobServer.RestfulApi)
+2018-12-14 11:21:04.594 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountries (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:21:04.600 +08:00 [INF] Request finished in 109.8224ms 500 text/html; charset=utf-8
+2018-12-14 11:22:51.481 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:22:51.667 +08:00 [INF] Saved 10 entities to in-memory store.
+2018-12-14 11:22:51.771 +08:00 [INF] User profile is available. Using 'C:\Users\EDZ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-12-14 11:22:55.163 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countrycollections  
+2018-12-14 11:22:55.280 +08:00 [INF] Request finished in 116.947ms 404 text/plain
+2018-12-14 11:23:03.945 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Values  
+2018-12-14 11:23:03.959 +08:00 [INF] Route matched with {action = "Get", controller = "Values"}. Executing action DoubleJobServer.RestfulApi.Controllers.ValuesController.Get (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:04.193 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.ValuesController.Get (DoubleJobServer.RestfulApi) - Validation state: "Valid"
+2018-12-14 11:23:04.206 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:04.385 +08:00 [ERR] An exception occurred in the database while saving changes for context type 'DoubleJobServer.Infrastructure.MyContext'.
+System.ArgumentException: An item with the same key has already been added. Key: 2
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IReadOnlyList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IReadOnlyList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+System.ArgumentException: An item with the same key has already been added. Key: 2
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IReadOnlyList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IReadOnlyList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2018-12-14 11:23:04.646 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.ValuesController.Get (DoubleJobServer.RestfulApi) in 683.7848ms
+2018-12-14 11:23:04.688 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: An item with the same key has already been added. Key: 2
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryTable`1.Create(IUpdateEntry entry)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryStore.ExecuteTransaction(IReadOnlyList`1 entries, IDiagnosticsLogger`1 updateLogger)
+   at Microsoft.EntityFrameworkCore.InMemory.Storage.Internal.InMemoryDatabase.SaveChangesAsync(IReadOnlyList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IReadOnlyList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at DoubleJobServer.Infrastructure.UnitOfWork.SaveAsync() in D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Infrastructure\UnitOfWork.cs:line 20
+   at DoubleJobServer.RestfulApi.Controllers.ValuesController.Get() in D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.RestfulApi\Controllers\ValuesController.cs:line 56
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:23:04.792 +08:00 [INF] Request finished in 847.3063ms 500 text/html; charset=utf-8
+2018-12-14 11:23:08.715 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/13  
+2018-12-14 11:23:08.733 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:08.775 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["13"]) - Validation state: "Valid"
+2018-12-14 11:23:08.785 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:08.816 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 32.1779ms.
+2018-12-14 11:23:08.821 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-14 11:23:08.822 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 87.454900000000009ms
+2018-12-14 11:23:08.823 +08:00 [INF] Request finished in 107.3798ms 404 text/plain
+2018-12-14 11:23:12.029 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1/Cities  
+2018-12-14 11:23:12.033 +08:00 [INF] Route matched with {action = "GetCitiesForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:12.048 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-14 11:23:12.051 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:12.084 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 34.1285ms.
+2018-12-14 11:23:12.093 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DoubleJobServer.Infrastructure.Resources.CityResource, DoubleJobServer.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-14 11:23:12.160 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) in 125.1769ms
+2018-12-14 11:23:12.161 +08:00 [INF] Request finished in 132.1994ms 200 application/json; charset=utf-8
+2018-12-14 11:23:17.162 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1/cities  
+2018-12-14 11:23:17.164 +08:00 [INF] Route matched with {action = "GetCitiesForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:17.178 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-14 11:23:17.182 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:17.184 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.4144ms.
+2018-12-14 11:23:17.185 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DoubleJobServer.Infrastructure.Resources.CityResource, DoubleJobServer.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-14 11:23:17.186 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) in 21.2377ms
+2018-12-14 11:23:17.187 +08:00 [INF] Request finished in 25ms 200 application/json; charset=utf-8
+2018-12-14 11:23:38.433 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1/cities/5  
+2018-12-14 11:23:38.441 +08:00 [INF] Route matched with {action = "GetCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:38.456 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","5"]) - Validation state: "Valid"
+2018-12-14 11:23:38.459 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:38.470 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11.7325ms.
+2018-12-14 11:23:38.472 +08:00 [INF] Executing ObjectResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CityResource'.
+2018-12-14 11:23:38.474 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi) in 29.355700000000002ms
+2018-12-14 11:23:38.475 +08:00 [INF] Request finished in 41.8723ms 200 application/json; charset=utf-8
+2018-12-14 11:23:47.602 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/9  
+2018-12-14 11:23:47.603 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:47.622 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["9"]) - Validation state: "Valid"
+2018-12-14 11:23:47.624 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:47.625 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 1.8452000000000002ms.
+2018-12-14 11:23:47.626 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-14 11:23:47.627 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 18.5195ms
+2018-12-14 11:23:47.628 +08:00 [INF] Request finished in 26.3625ms 404 text/plain
+2018-12-14 11:23:52.751 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/3/cities  
+2018-12-14 11:23:52.752 +08:00 [INF] Route matched with {action = "GetCitiesForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:52.769 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) with arguments (["3"]) - Validation state: "Valid"
+2018-12-14 11:23:52.771 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:52.775 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 4.2221ms.
+2018-12-14 11:23:52.778 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-14 11:23:52.779 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) in 24.890600000000003ms
+2018-12-14 11:23:52.779 +08:00 [INF] Request finished in 28.6435ms 404 text/plain
+2018-12-14 11:23:58.112 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1/cities  
+2018-12-14 11:23:58.114 +08:00 [INF] Route matched with {action = "GetCitiesForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:23:58.130 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) with arguments (["1"]) - Validation state: "Valid"
+2018-12-14 11:23:58.132 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:23:58.135 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3.0234ms.
+2018-12-14 11:23:58.136 +08:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[DoubleJobServer.Infrastructure.Resources.CityResource, DoubleJobServer.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2018-12-14 11:23:58.137 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.GetCitiesForCountry (DoubleJobServer.RestfulApi) in 21.082ms
+2018-12-14 11:23:58.140 +08:00 [INF] Request finished in 27.5385ms 200 application/json; charset=utf-8
+2018-12-14 11:24:04.654 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/3  
+2018-12-14 11:24:04.655 +08:00 [INF] Route matched with {action = "GetCountry", controller = "Country"}. Executing action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:24:04.669 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) with arguments (["3"]) - Validation state: "Valid"
+2018-12-14 11:24:04.671 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:24:04.673 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.NotFoundResult in 1.6428ms.
+2018-12-14 11:24:04.674 +08:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 404
+2018-12-14 11:24:04.674 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountry (DoubleJobServer.RestfulApi) in 18.2755ms
+2018-12-14 11:24:04.675 +08:00 [INF] Request finished in 21.462ms 404 text/plain
+2018-12-14 11:24:12.137 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries/1/cities/1  
+2018-12-14 11:24:12.138 +08:00 [INF] Route matched with {action = "GetCityForCountry", controller = "City"}. Executing action DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi)
+2018-12-14 11:24:12.152 +08:00 [INF] Executing action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi) with arguments (["1","1"]) - Validation state: "Valid"
+2018-12-14 11:24:12.157 +08:00 [INF] Entity Framework Core 2.1.4-rtm-31024 initialized 'MyContext' using provider 'Microsoft.EntityFrameworkCore.InMemory' with options: StoreName=MyDatabase 
+2018-12-14 11:24:12.159 +08:00 [INF] Executed action method DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2.3393ms.
+2018-12-14 11:24:12.160 +08:00 [INF] Executing ObjectResult, writing value of type 'DoubleJobServer.Infrastructure.Resources.CityResource'.
+2018-12-14 11:24:12.160 +08:00 [INF] Executed action DoubleJobServer.RestfulApi.Controllers.CityController.GetCityForCountry (DoubleJobServer.RestfulApi) in 20.421200000000002ms
+2018-12-14 11:24:12.161 +08:00 [INF] Request finished in 24.2652ms 200 application/json; charset=utf-8
+2018-12-14 11:24:17.056 +08:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/countries?pageindex=0&pagesize=3  
+2018-12-14 11:24:17.061 +08:00 [ERR] Request matched multiple actions resulting in ambiguity. Matching actions: DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountries (DoubleJobServer.RestfulApi)
+2018-12-14 11:24:17.186 +08:00 [ERR] An unhandled exception has occurred while executing the request.
+Microsoft.AspNetCore.Mvc.Internal.AmbiguousActionException: Multiple actions matched. The following actions matched route data and had all constraints satisfied:
+
+DoubleJobServer.RestfulApi.Controllers.CountryController.Get (DoubleJobServer.RestfulApi)
+DoubleJobServer.RestfulApi.Controllers.CountryController.GetCountries (DoubleJobServer.RestfulApi)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionSelector.SelectBestCandidate(RouteContext context, IReadOnlyList`1 candidates)
+   at Microsoft.AspNetCore.Mvc.Internal.MvcAttributeRouteHandler.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.Tree.TreeRouter.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-12-14 11:24:17.192 +08:00 [INF] Request finished in 136.2491ms 500 text/html; charset=utf-8

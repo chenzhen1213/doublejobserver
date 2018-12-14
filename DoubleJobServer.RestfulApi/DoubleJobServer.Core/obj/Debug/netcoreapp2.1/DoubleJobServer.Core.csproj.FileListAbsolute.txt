@@ -1,0 +1,9 @@
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\bin\Debug\netcoreapp2.1\DoubleJobServer.Core.deps.json
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\bin\Debug\netcoreapp2.1\DoubleJobServer.Core.dll
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\bin\Debug\netcoreapp2.1\DoubleJobServer.Core.pdb
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\obj\Debug\netcoreapp2.1\DoubleJobServer.Core.csproj.CoreCompileInputs.cache
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\obj\Debug\netcoreapp2.1\DoubleJobServer.Core.AssemblyInfoInputs.cache
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\obj\Debug\netcoreapp2.1\DoubleJobServer.Core.AssemblyInfo.cs
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\obj\Debug\netcoreapp2.1\DoubleJobServer.Core.dll
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\obj\Debug\netcoreapp2.1\DoubleJobServer.Core.pdb
+D:\DoubleJobServer\DoubleJobServer.RestfulApi\DoubleJobServer.Core\obj\Debug\netcoreapp2.1\DoubleJobServer.Core.csprojAssemblyReference.cache
